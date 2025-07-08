@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+}
+repositories {
+    mavenCentral()
+}
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
+    testImplementation 'org.mockito:mockito-core:5.2.0'
+}
+test {
+    useJUnitPlatform()
+}
+jacocoTestReport {
+    dependsOn test
+    reports {
+        html.required.set(true)
+        xml.required.set(false)
+        csv.required.set(false)
+    }
+}
