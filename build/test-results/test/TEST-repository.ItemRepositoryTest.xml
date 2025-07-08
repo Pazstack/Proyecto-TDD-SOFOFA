@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="repository.ItemRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-08T04:41:11.260Z" hostname="LAPTOP-B7N3S75V" time="0.624">
+<testsuite name="repository.ItemRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-08T04:50:52.210Z" hostname="LAPTOP-B7N3S75V" time="1.217">
   <properties/>
-  <testcase name="testActualizarItem()" classname="repository.ItemRepositoryTest" time="0.617"/>
-  <testcase name="testEliminarItem()" classname="repository.ItemRepositoryTest" time="0.003"/>
-  <testcase name="testGuardarYListarItem()" classname="repository.ItemRepositoryTest" time="0.002"/>
+  <testcase name="testActualizarItem()" classname="repository.ItemRepositoryTest" time="1.197"/>
+  <testcase name="testEliminarItem()" classname="repository.ItemRepositoryTest" time="0.005"/>
+  <testcase name="testGuardarYListarItem()" classname="repository.ItemRepositoryTest" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
