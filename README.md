@@ -30,13 +30,42 @@ Desarrollar un módulo backend funcional y bien testeado, como parte de una prá
 
 📁 Estructura del proyecto
 
-├── src/
-│   ├── main/java/com/sofofa/proyecto/
-│   │   ├── config/
-│   │   ├── model/
-│   │   └── repository/
-│   └── test/java/com/sofofa/proyecto/
-├── build.gradle
-└── README.md 
+src/
+├── main/java/
+│   ├── config/        # Configuraciones del entorno (DBConnection)
+│   ├── model/         # Entidades del dominio (Item)
+│   └── repository/    # Persistencia CRUD y lógica de negocio
+└── test/java/
+    └── repository/    # Pruebas unitarias según enfoque TDD
+docs/
+└── Informe_TDD_PazGPortillo.docx  # Informe técnico del proyecto
 
 
+
+
+🚀 Ejecución del Proyecto
+📥 1. Clonar el repositorio
+Abre una terminal y ejecuta:
+
+bash
+
+git clone https://github.com/Pazstack/Proyecto-TDD-SOFOFA
+cd PROYECTO_TDD
+
+⚙️ 2. Compilar el proyecto
+bash
+./gradlew build
+Esto compilará el proyecto y resolverá las dependencias configuradas en build.gradle.
+
+🧪 Ejecución de Pruebas Unitarias
+Para correr los tests unitarios desde la línea de comandos:
+
+bash
+./gradlew test
+
+También puedes ejecutar las pruebas directamente desde tu IDE (por ejemplo IntelliJ IDEA) haciendo clic derecho sobre el archivo ItemRepositoryTest.java o cualquier clase de test, y seleccionando "Run...".
+
+📄 Documentación
+El informe técnico del proyecto se encuentra en la carpeta /docs: docs/Informe_TDD_PazGPortillo.docx
+
+Incluye detalles sobre metodología TDD, estructura del proyecto, cobertura de pruebas y reflexiones.
